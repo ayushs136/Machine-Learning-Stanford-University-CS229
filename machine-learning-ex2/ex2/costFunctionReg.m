@@ -27,8 +27,8 @@ logstuff = sum((-y.*log(h) )-((1-y).*log(1-h)));
 J = (1/m) .* logstuff + regularized_stuff;
 
 
-grad(1) = (1/m)* (X(:,1)'*(h-y));                                  % 1 x 1
-grad(2:end) = (1/m)* (X(:,2:end)'*(h-y))+(lambda/m)*theta(2:end);
+grad(1) = (1/m)* (X(:,1)'*(h-y));                                  % for θo
+grad(2:end) = (1/m)* (X(:,2:end)'*(h-y))+(lambda/m)*theta(2:end);  % for θ1
 
 
 
