@@ -1,0 +1,55 @@
+# Created by Octave 4.4.1, Sat Jan 12 01:39:12 2019 GMT <unknown@KRONOS-PC>
+# name: ans
+# type: sq_string
+# elements: 1
+# length: 57
+C:\Users\AYUSH SHARMA\Documents\Machine learning Stanford
+
+
+# name: exitFlag
+# type: scalar
+1
+
+
+# name: functionVal
+# type: scalar
+1.5777218104420236e-30
+
+
+# name: initialTheta
+# type: matrix
+# rows: 2
+# columns: 1
+ 0
+ 0
+
+
+# name: optTheta
+# type: matrix
+# rows: 2
+# columns: 1
+ 4.9999999999999991
+ 4.9999999999999991
+
+
+# name: options
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: GradObj
+# type: sq_string
+# elements: 1
+# length: 2
+on
+
+
+# name: MaxIter
+# type: sq_string
+# elements: 1
+# length: 3
+100
+
+
+
+
