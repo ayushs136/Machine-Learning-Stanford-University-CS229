@@ -31,7 +31,7 @@ grad = zeros(size(theta));
 %       there're many possible vectorized solutions, but one solution
 %       looks like:
 %           grad = (unregularized gradient for logistic regression)
-%           temp = theta; 
+%           temp = theta; `
 %           temp(1) = 0;   % because we don't add anything for j = 0  
 %           grad = grad + YOUR_CODE_HERE (using the temp variable)
 %
